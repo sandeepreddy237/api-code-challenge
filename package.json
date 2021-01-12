@@ -1,0 +1,16 @@
+{
+  "name": "code-challenge",
+  "version": "1.0.0",
+  "description": "abc code challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha 'test/*.js'  --timeout 100000 --reporter mochawesome"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^8.2.1",
+    "mochawesome": "^6.2.1",
+    "mochawesome-report-generator": "^5.1.0",
+    "supertest": "^5.0.0"
+  }
+}
